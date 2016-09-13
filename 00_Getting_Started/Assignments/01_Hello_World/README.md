@@ -6,7 +6,7 @@
 - Make the skeleton code print out "hello world!".
 
 ### What you need to do:
-- Figure out how to print stuff in java.
+- Figure out how to print text to the console in java.
 - Run the code in three ways:
     - Make it run inside the IDE of your choosing (skip this if you decided to use a text editor).
     - Use javac to compile the code into a class file and run it.
