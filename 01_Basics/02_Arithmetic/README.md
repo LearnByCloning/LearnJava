@@ -3,15 +3,16 @@
 ## Lab: 02
 
 ### Goal:
-- Understand how Java handles arithmetic
-- Research Java's mathematical operators
-- Research Java's relational operators
-- Research Java's logical operators
-- Research Java's assignment operators
-- (Bonus) Research Java's bitwise operators
+- Understand Java's mathematical operators
+- Understand Java's relational operators
+- Understand Java's logical operators
+- Understand Java's assignment operators
+- (Bonus) Understand Java's bitwise operators
 
 ### What you need to do:
+- Research the different operators available in Java
 - Research the order of operation of Java operators
+- (Bonus) Research bitwise operators
 - (Bonus) Research two's complement
 
 ### Conclusion:
