@@ -8,7 +8,7 @@
 
 ### What you need to do:
 - Google about IDEs. Figure out what they do and why they make programming easier.
-- Find and install an IDE to your liking. (Don't worry about advanced features for now - you can always switch)
+- Find and install an IDE to your liking. (We recommend IntelliJ IDEA, and this is what we'll be using in following tutorials)
 
 ### Conclusion:
 - Check and see if your IDE is installed and working.
