@@ -1,5 +1,5 @@
 # Learn By Cloning
-## Lesson: Introduction
+## Lesson: Getting Started
 ## Lab: 02
 
 ### Goal:
