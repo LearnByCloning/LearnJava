@@ -9,10 +9,10 @@ What do relational operators return?
 What is in common with `float`s and `double`s?
 
 > What does `1.0 * 2` give?
-What does `1 / 2` give?
-What does `1.0 / 2.0` give?
-What does `1 / 0` give?
-What does `1.0 / 0.0` give?
+What does `1 / 2` give? Why?
+What does `1.0 / 2.0` give? Why?
+What does `1 / 0` give? Why?
+What does `1.0 / 0.0` give? Why?
 What does `2 % 2` give?
 
 The easiest thing to do here is to guess the answer and test out the code.
