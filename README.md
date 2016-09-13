@@ -1,7 +1,5 @@
 # LearnJava
 
-----------
-
 Hello and welcome to LearnJava! 
 
 Each of these assignments will explore a certain aspect of computing and the java programming language. There will be assignments ranging from simple mathematics to file manipulation and socket programming all the way to full on OOP design protocols. There will also be bonus assignments dealing with the language itself and will teach you how to use reflection and native calls within Java.
