@@ -12,6 +12,7 @@
 
 ### Conclusion:
 Your program can look like this:
+
     How many numbers do you want to print?
     -5
     That is an invalid amount. 
