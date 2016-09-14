@@ -11,4 +11,5 @@ I recommend you use IntelliJ programming the assignments. However you can use an
 After the assignments, we're going to have some fun projects to do. We will write programs dealing with REST APIs and programs dealing with Bukkit/Spigot/Sponge. These will provide _real_ experiences in using the programming language.
 
 
+The stuff we plan to cover: https://goo.gl/36EkFx
 (This is a very rough draft of the readme, expect it to change soon)
