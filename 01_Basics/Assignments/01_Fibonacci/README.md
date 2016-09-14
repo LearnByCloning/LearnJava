@@ -6,7 +6,7 @@
 - Print a certain amount of values from the Fibonacci sequence.
 
 ### What you need to do:
-- Obtain a number from the user input and call it n.
+- Obtain a number from the user input and call it `n`.
 - Check if the number is negative or zero. If so tell the user their input was bad and ask them for their input again. (Try this with both `while` and `do-while`).
 - Once a correct input has been entered, start printing out that many values from the Fibonacci sequence.
 
