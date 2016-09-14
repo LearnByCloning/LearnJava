@@ -12,4 +12,5 @@ After the assignments, we're going to have some fun projects to do. We will writ
 
 
 The stuff we plan to cover: https://goo.gl/36EkFx
+
 (This is a very rough draft of the readme, expect it to change soon)
