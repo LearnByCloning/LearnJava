@@ -20,6 +20,7 @@
 ### Quick Quiz:
 - Where would you choose to use a `float` rather than an `integer`?
 - Where would you choose to use a `long` rather than an `int`?
-- What are the maximum and minimum values that you can give to `byte`s, `short`s, `int`s and `long`s? How many bytes of memory are used?
+- What are the maximum and minimum values that you can give to `byte`s, `short`s, `int`s and `long`s?
+    - How many bytes of memory are used?
 - Where would you choose to use a `double` rather than a `float`?
 - How is the data inside the variable stored inside memory?
