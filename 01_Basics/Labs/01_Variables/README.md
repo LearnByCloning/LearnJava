@@ -3,10 +3,10 @@
 ## Lab: 01
 
 ### Goal:
-- Understand Java's native variables.
-- Understand how information gets assigned to them and how they are used.
-- Understand how they are named.
-- Understand what scope is.
+- Understand Java's primitive types.
+- Understand what a `String` is and to create one.
+- Understand how variables are declared, assigned, and accessed.
+- Understand what the different scopes are in Java.
 
 ### What you need to do:
 - Research what types of variables there are in Java.
