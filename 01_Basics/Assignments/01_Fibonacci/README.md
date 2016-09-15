@@ -13,15 +13,22 @@
 ### Conclusion:
 Your program can look like this:
 
-    How many numbers do you want to print?
-    -5
-    That is an invalid amount. 
-    How many numbers do you want to print?
-    0
-    That is an invalid amount.
-    How many numbers do you want to print?
-    8
-    Here are your numbers: 1, 2, 3, 5, 8, 13, 21, 34
+> How many numbers do you want to print?
+
+-5
+
+> That is an invalid amount. 
+
+> How many numbers do you want to print?
+
+0
+
+> That is an invalid amount.
+
+> How many numbers do you want to print?
+
+8
+> Here are your numbers: 1, 2, 3, 5, 8, 13, 21, 34
 
 ### Quiz:
 - Which one was a better loop choice? `do-while` or `while`? Why?
