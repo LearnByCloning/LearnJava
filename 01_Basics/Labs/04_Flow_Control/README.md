@@ -21,7 +21,6 @@
 ### Conclusion:
 - You can effectively use loops instead of repeating code.
 
-
 ### Quiz:
 - What is the order of execution for the statements inside the `for` loop?
 - What is the difference of a `while` and `do-while` loop?
