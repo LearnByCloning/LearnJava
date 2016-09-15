@@ -13,15 +13,23 @@
 ### Conclusion:
 Your program can look like this:
 
-    How many numbers do you want to print?
-    -5
-    That is an invalid amount. 
-    How many numbers do you want to print?
-    0
-    That is an invalid amount.
-    How many numbers do you want to print?
-    8
-    Here are your numbers: 2, 3, 5, 7, 11, 13, 17, 19
+> How many numbers do you want to print?
+
+-5
+
+> That is an invalid amount. 
+
+> How many numbers do you want to print?
+
+0
+
+> That is an invalid amount.
+    
+> How many numbers do you want to print?
+    
+8
+    
+> Here are your numbers: 2, 3, 5, 7, 11, 13, 17, 19
 
 ### Quiz:
 - (Bonus) (Look ahead) What would you suggest to make this faster?
