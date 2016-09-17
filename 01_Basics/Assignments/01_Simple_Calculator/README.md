@@ -3,10 +3,10 @@
 ## Assignment: 01
 
 ### Goal:
-- Create a simple calculator application to perform either `+`, `-`, `/` or `*` on two numbers.
+- Create a simple calculator application to perform either addition, subtraction, division or multiplication on two numbers.
 
 ### What you need to do:
-- Prompt the user to provide the type of calculation to perform (addition, subtraction, division or multiplication) and store this in a variable.
+- Prompt the user to provide the type of calculation to perform addition (`+`), subtraction (`-`), division (`/`) or multiplication (`*`) and store this in a variable.
 - Prompt the user to input the first number, followed by the second number.
     - The calculator should work with both decimals (``double``s) or whole numbers (``int``s). 
     - What variable type do we need to achieve this?
