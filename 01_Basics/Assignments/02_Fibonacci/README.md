@@ -1,6 +1,6 @@
 # Learn By Cloning
 ## Lesson: Basics
-## Assignment: 01
+## Assignment: 02
 
 ### Goal:
 - Print a certain amount of values from the Fibonacci sequence.

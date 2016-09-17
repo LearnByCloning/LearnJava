@@ -11,9 +11,9 @@
 ### What you need to do:
 - Research how to write and access an array.
 - Write some code initializing an `integer array` of size 20.
-- Write a loop to initialize all the elements in the array with a number (bonus: Initialize it with a random number) .
+- Write a loop to initialize all the elements in the array with a number (bonus: Initialize it with a random number).
 - Write another loop to find the average of the numbers inside the array (Research what a for-each loop is and use that).
-- Bonus: How would you add a 21st element to the array? (It's okay if you can't answer this right now)
+- Optional: How would you add a 21st element to the array?
 
 ### Conclusion:
 - You should know that you can make an `array` of all data types in java.

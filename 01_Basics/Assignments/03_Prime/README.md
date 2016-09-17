@@ -1,6 +1,6 @@
 # Learn By Cloning
 ## Lesson: Basics
-## Assignment: 02
+## Assignment: 03
 
 ### Goal:
 - Print a certain amount of prime values.
