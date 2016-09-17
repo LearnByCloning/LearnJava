@@ -13,14 +13,16 @@
 ### Conclusion:
 Your program could look like this:
 
-> What is your name?
-
+```
+What is your name?
+```
 Amir
 
-> How old are you?
-
+```
+How old are you?
+```
 21
 
-> Hey Amir! You've lived for 255 months, 1022 weeks, 7665 days, 183 hours, and 11037600 seconds.
-
-You're not required to make this exact format.
+```
+Hey Amir! You've lived for 255 months, 1022 weeks, 7665 days, 183 hours, and 11037600 seconds.
+```

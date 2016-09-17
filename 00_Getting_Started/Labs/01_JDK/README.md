@@ -12,4 +12,4 @@
 - Install the correct version for your computer.
 
 ### Conclusion:
-- Check and see if JDK is installed and working (Google how to test this!).
+- Check and see if JDK is installed and working (Research how to test this).
