@@ -24,7 +24,7 @@ X
 That is an invalid selection.
 What type of calculation would you like to perform (+, -, / or *): 
 ```
-*
+\*
 
 ```
 Please enter the first number: 
