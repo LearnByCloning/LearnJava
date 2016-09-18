@@ -12,7 +12,7 @@
 
 This lesson will be a little different than our previous ones. We're going to hold your hand through it so you have a better understanding of OOP. However, we still expect you to research some of the keywords and topics you encounter in this lab.
 
-Open `Example_01/Example.java`
+Open `Example.java`
 
 Read the comments inside the code and run it. Try to understand whats happening.
 
