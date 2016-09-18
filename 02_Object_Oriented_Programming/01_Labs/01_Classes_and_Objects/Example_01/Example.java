@@ -1,5 +1,11 @@
-public class Example_01 {
+public class Example {
+    // Reminder: This is the method thats always called first when the program starts.
+    // Before looking at this part of the code, go down to "public class Cat"
     public static void main(String[] args) {
+        new Example();
+    }
+
+    public Example() {
         Cat cat1 = new Cat(1, 6, 2);
         Cat cat2 = new Cat(2, 4, 3);
         Cat cat3 = new Cat(3, 9, 1);
@@ -18,10 +24,12 @@ public class Example_01 {
     }
 
     // The class "Cat" is our "Blueprint" to make cats (cat objects).
+    // Yes you can have a Class inside a class!
     public class Cat {
         // Research what final does.
         private final int id;
 
+        // Lets make two fields for our cat, age and weight.
         private int age;
         private int weight;
 
@@ -40,7 +48,14 @@ public class Example_01 {
         }
 
         public void print() {
-            System.out.printf("I'm cat: %d! I'm %d years old and I weigh %d kilograms.", id, age, weight);
+            // How does printf work?
+            // What does printing \n do?
+            System.out.printf("I'm cat: %d! I'm %d years old and I weigh %d kilogram%s.\n",
+                    id,
+                    age,
+                    weight,
+                    // What am I doing on this line? (Hint: Research "inline if"
+                    (weight != 1) ? "s" : "");
         }
     }
 }
