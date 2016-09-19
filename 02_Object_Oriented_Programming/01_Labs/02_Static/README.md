@@ -10,69 +10,91 @@
 
 ### What you need to do:
 
-As with multiple lessons in this section, we will be walking you through the information and how to utilize it.
+As with multiple labs in this section, we will be walking you through the information and how to utilize it.
 Research any terms that are used which are unfamiliar.
 
 #### Static in Fields
 
-In the last lesson, you learned about fields of data in your objects. We created a `Cat` class (or "blueprint"). Static fields are fields of data which "global" if you will. Take the following code:
+In the last lesson, you learned about fields of data in your objects. Earlier we created a Cat `class` (or "blueprint"). Remember how we found out that the data (fields, such as age and weight) of each instance of an `object` made from a specific `class` has its own data, in other words they don't share it, well what if you want to share this data? When you want to share the data amongst all instances of a `class` you call that field 'static'.
 
-```java
-public class Cat {
-    static String phrase = "I hate dogs!";
-    private final int id;
-    private int age;
-    private int weight;
-    
-    // You should already know what this method is.
-    public Cat(int id, int age, int weight) {
-        this.age = age;
-        this.weight = weight;
-        this.id = id;
-    }
-
-    public void print() {
-        System.out.printf("I'm cat: %d! I'm %d years old and I weigh %d kilogram%s. My phrase is %s\n",
-                id,
-                weight,
-                age,
-                (weight != 1) ? "s" : "",
-                phrase);
-    }
-}
-```
-
-The difference between this class and the one in the last lesson is that I added a static field named `phrase`. If any modifications were made to the field `phrase`, it would change for all the `Cat` objects/instances.
-
-Let's say along side this class I have this main class:
+Lets modify our code from `Lab_01` to include a counter! We're going to count how many times a cat has been 'constructed!'.
 
 ```java
 public class Example {
     public static void main(String[] args) {
+        new Example();
+    }
+
+    public Example() {
+        // We change how we're printing the cats!
         Cat cat1 = new Cat(1, 6, 2);
-        Cat cat2 = new Cat(2, 4, 3);
-        Cat cat3 = new Cat(3, 9, 1);
 
         cat1.print();
-        Cat.phrase = "Meow!";
+
+        Cat cat2 = new Cat(2, 4, 3);
+
+        cat1.print();
+        cat2.print();
+
+        Cat cat3 = new Cat(3, 9, 1);
+
         cat1.print();
         cat2.print();
         cat3.print();
     }
+
+    /*
+     * Since our cat class is called an `inner class` (aka its a class inside a class (in our case the Example class))
+     * We need to call it a `static` class to be able to use static fields in it. You don't need to understand this completely yet!
+     */
+    public static class Cat {
+        // We start counter with the initial value of 0.
+        public static int counter = 0;
+        
+        private final int id;
+        private int age;
+        private int weight;
+
+        // You should already know what this method is.
+        public Cat(int id, int age, int weight) {
+            this.age = age;
+            this.weight = weight;
+            this.id = id;
+
+            /*
+             * Here we change the value of counter.
+             * Remember this changes the value of counter for ALL cats!
+             */
+            counter++;
+        }
+
+        public void print() {
+            System.out.printf("There %s been %d cats created! I'm cat: %d! I'm %d years old and I weigh %d kilogram%s.\n",
+                    (counter == 1) ? "has" : "have",
+                    counter,
+                    id,
+                    weight,
+                    age,
+                    (weight != 1) ? "s" : "");
+        }
+    }
 }
 ```
 
-Executing this code would give the following output:
+I want you to make this modification to your own Cat `class` and run it. What do you expect it to print?
 
 ```
-I'm cat 1! I'm 6 years old and I weigh 2 kilograms. My phrase is I hate dogs!
-I'm cat 1! I'm 6 years old and I weigh 2 kilograms. My phrase is Meow!
-I'm cat 2! I'm 4 years old and I weigh 4 kilograms. My phrase is Meow!
-I'm cat 3! I'm 3 years old and I weigh 1 kilogram. My phrase is Meow!
+There has been 1 cats created! I'm cat: 1! I'm 6 years old and I weigh 2 kilograms.
+There have been 2 cats created! I'm cat: 1! I'm 6 years old and I weigh 2 kilograms.
+There have been 2 cats created! I'm cat: 2! I'm 4 years old and I weigh 3 kilograms.
+There have been 3 cats created! I'm cat: 1! I'm 6 years old and I weigh 2 kilograms.
+There have been 3 cats created! I'm cat: 2! I'm 4 years old and I weigh 3 kilograms.
+There have been 3 cats created! I'm cat: 3! I'm 9 years old and I weigh 1 kilogram.
 ```
 
-With the line `Cat.phrase = "Meow!"` I have changed the field's value for all the objects!
-This displays the basic essence of static.
+Make sure you completely understand what happened here.
+
+Lets get more technical with what static fields actually are. Static fields are independent of the creation of `objects`. In other words, you can access data inside `static` fields without creating an `object` from the `class` (blueprint). In our example above, we could access the counter by doing `Cat.counter`. That means the `counter` `variable` doesn't need an actual cat to be changed or accessed!
 
 #### Static in Methods
 
