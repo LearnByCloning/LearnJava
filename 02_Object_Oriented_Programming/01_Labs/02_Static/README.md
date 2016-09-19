@@ -23,7 +23,8 @@ public class Cat {
     private final int id;
     private int age;
     private int weight;
-
+    
+    // You should already know what this method is.
     public Cat(int id, int age, int weight) {
         this.age = age;
         this.weight = weight;
