@@ -69,12 +69,12 @@ public class Example {
         }
 
         public void print() {
-            System.out.printf("There %s been %d cats created! I'm cat: %d! I'm %d years old and I weigh %d kilogram%s.\n",
-                    (counter == 1) ? "has" : "have",
+            System.out.printf("%d cat%s created so far! I'm cat: %d! I'm %d years old and I weigh %d kilogram%s.\n",
                     counter,
+                    (counter != 1) ? "s" : "",
                     id,
-                    weight,
                     age,
+                    weight,
                     (weight != 1) ? "s" : "");
         }
     }
@@ -84,12 +84,12 @@ public class Example {
 I want you to make this modification to your own Cat `class` and run it. What do you expect it to print?
 
 ```
-There has been 1 cats created! I'm cat: 1! I'm 6 years old and I weigh 2 kilograms.
-There have been 2 cats created! I'm cat: 1! I'm 6 years old and I weigh 2 kilograms.
-There have been 2 cats created! I'm cat: 2! I'm 4 years old and I weigh 3 kilograms.
-There have been 3 cats created! I'm cat: 1! I'm 6 years old and I weigh 2 kilograms.
-There have been 3 cats created! I'm cat: 2! I'm 4 years old and I weigh 3 kilograms.
-There have been 3 cats created! I'm cat: 3! I'm 9 years old and I weigh 1 kilogram.
+1 cat created so far! I'm cat: 1! I'm 6 years old and I weigh 2 kilograms.
+2 cats created so far! I'm cat: 1! I'm 6 years old and I weigh 2 kilograms.
+2 cats created so far! I'm cat: 2! I'm 4 years old and I weigh 3 kilograms.
+3 cats created so far! I'm cat: 1! I'm 6 years old and I weigh 2 kilograms.
+3 cats created so far! I'm cat: 2! I'm 4 years old and I weigh 3 kilograms.
+3 cats created so far! I'm cat: 3! I'm 9 years old and I weigh 1 kilogram.
 ```
 
 Make sure you completely understand what happened here.
