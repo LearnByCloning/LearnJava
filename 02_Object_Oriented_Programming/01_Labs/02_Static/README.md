@@ -63,7 +63,7 @@ public class Example {
 
 Executing this code would give the following output:
 
-```java
+```
 I'm cat 1! I'm 6 years old and I weigh 2 kilograms. My phrase is I hate dogs!
 I'm cat 1! I'm 6 years old and I weigh 2 kilograms. My phrase is Meow!
 I'm cat 2! I'm 4 years old and I weigh 4 kilograms. My phrase is Meow!
