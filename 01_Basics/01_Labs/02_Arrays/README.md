@@ -1,6 +1,6 @@
 # Learn By Cloning
 ## Lesson: Beyond the Basics
-## Lab: 01
+## Lab: 02
 
 ### Goal:
 - Learn what an `array` is. 

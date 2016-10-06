@@ -1,6 +1,6 @@
 # Learn By Cloning
 ## Lesson: Basics
-## Lab: 03
+## Lab: 04
 
 ### Goal:
 - Understand how to put user input inside a variable.

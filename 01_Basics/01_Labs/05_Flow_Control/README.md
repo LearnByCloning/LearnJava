@@ -1,6 +1,6 @@
 # Learn By Cloning
 ## Lesson: Basics
-## Lab: 04
+## Lab: 05
 
 ### Goal:
 - Understand how to use `for`, `while`, and `do-while` loops.

@@ -1,6 +1,6 @@
 # Learn By Cloning
 ## Lesson: Basics
-## Lab: 02
+## Lab: 03
 
 ### Goal:
 - Understand Java's mathematical operators
