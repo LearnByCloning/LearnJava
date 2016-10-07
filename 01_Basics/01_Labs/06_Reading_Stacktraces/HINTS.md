@@ -1,6 +1,6 @@
 # Learn By Cloning
 ## Lesson: Basics
-## Lab: 05
+## Lab: 06-Hints
 
 ### Quiz
 

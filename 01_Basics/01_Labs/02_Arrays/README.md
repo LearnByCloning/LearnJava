@@ -1,5 +1,5 @@
 # Learn By Cloning
-## Lesson: Beyond the Basics
+## Lesson: Basics
 ## Lab: 02
 
 ### Goal:
