@@ -2,6 +2,9 @@
 ## Lesson: Basics
 ## Lab: 06
 
+### Reason:
+This lesson is one of the most important ones of this tutorial. Once you learn how to understand errors, you're going to become a much stronger developer.
+
 ### Goal:
 - Understand what Throwables, Exceptions, and Errors are.
 - Understand how a Throwable is caught.

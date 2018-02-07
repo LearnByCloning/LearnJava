@@ -5,6 +5,7 @@
 ### Goal:
 - Learn what an `array` is. 
 - Learn what an element of an `array` is.
+- Learn what an `index` of an `array` is.
 - Learn what the syntax of an `array` is.
 - Learn how to create & access an `array`.
 - Learn about the limitations of `arrays`.
@@ -24,4 +25,4 @@
 
 ### Quick Quiz:
 - Do arrays have a limit in how big they can get? What is that limit?
-- What are some issues with arrays?
+- What are some issues with arrays? (Come back to this question in future lessons, what has been added to this list?)

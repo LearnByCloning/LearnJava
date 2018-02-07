@@ -20,7 +20,6 @@
 
 ### Quick Quiz:
 - What is the difference between mathematical operators and relational operators?
-- Why do bitwise operators only work on `byte`s, `short`s, `int`s, and `long`s?
 - Mathematical Operators
     - What does `1.0 * 2` give?
     - What does `1 / 2` give? Why?
@@ -51,3 +50,4 @@
     - What does `1 << 2` give? Why?
     - What does `4 >> 2` give? Why?
     - What does `~0 >>> 31` give? Why?
+    - Why do bitwise operators only work on `byte`s, `short`s, `int`s, and `long`s?
