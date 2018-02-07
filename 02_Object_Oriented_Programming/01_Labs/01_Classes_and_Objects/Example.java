@@ -35,7 +35,7 @@ public class Example {
 
         /**
          * This is called a constructor.
-         * Think of this as our interface between the blueprint cat and constructing something out of that Blueprint.
+         * Think of this as our interface between the blueprint cat and constructing something out of that blueprint.
          *
          * @param id
          * @param age
@@ -54,7 +54,7 @@ public class Example {
                     id,
                     age,
                     weight,
-                    // What am I doing on this line? (Hint: Research "inline if"
+                    // What am I doing on this line? (Hint: Research "inline if")
                     (weight != 1) ? "s" : "");
         }
     }

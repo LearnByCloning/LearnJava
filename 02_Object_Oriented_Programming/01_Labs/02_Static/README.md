@@ -143,4 +143,12 @@ public class Example {
 
 #### Appropriate usage of static
 
-Coming soon.
+There is a simple rule of thumb regarding static:
+
+For Methods:
+ - Does it make sense for this method to exist without an instance of the class?
+
+For example, assume you're writing a `Car` class. You have the following method: `double convertToKph(double Mph)`. Would this make sense to be static? Yes! The method makes sense without having an instance of the car. You can always do `double kph = Car.convertToKph(1231)`.
+
+For fields:
+ - Try not to do this. There are very few instances this makes sense and you'll notice in the code when we get there. (If you can't wait, look up Singletons)
